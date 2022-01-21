@@ -4,6 +4,6 @@ sslVersion = TLSv1.2
 
 [service]
 accept = 5000
-connect = 5001
+connect = db-postgresql-ha-pgpool.database-dev.svc.cluster.local:5432
 cert = /etc/stunnel/pki/cert.pem
 key = /etc/stunnel/pki/key.pem
